@@ -2,8 +2,8 @@ language: java
 script: ./release.sh
 deploy:
   provider: releases
-  api_key: $GH_TOKEN
-  file: $TRAVIS_TAG
+  api_key: "$GH_TOKEN"
+  file: "$TRAVIS_TAG.zip"
   skip_cleanup: true
   on:
     tags: true
