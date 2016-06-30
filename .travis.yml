@@ -1,2 +1,4 @@
 language: java
-script: ./release.sh
+script: 
+- ./Minebot/gradlew build
+- ./AimBow/gradlew build
