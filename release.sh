@@ -24,4 +24,4 @@ done
 
 echo "Packing release"
 cd "$base/releases"
-zip "$.zip" ./*
+zip "$TRAVIS_TAG.zip" ./*
