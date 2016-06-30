@@ -1,5 +1,6 @@
 language: java
 script: ./release.sh
+all_branches: true
 deploy:
   provider: releases
   api_key: '$GH_TOKEN'
